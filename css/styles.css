@@ -1,75 +1,61 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+html,
 body {
-    font: normal normal 13px/16px "Open Sans", sans-serif;
-    background: #ebebeb;
+    font-family: Arial, sans-serif;
+    background-color: #d2e6ad;
 }
 
-.container {
-    padding: 20px;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 40px;
-    background: rgba(255, 255, 255, 0.521);
-    border-radius: 15px;
-}
-
-form {
-    display: inline-block;
-}
-
-input {
-    padding: 4px 15px 4px 5px;
-    border-radius: 10px;
-}
-
-#button {
-    display: inline-block;
-    background-color: #322fd5;
-    color: #ffffff;
-    border-radius: 10px;
+.btn {
+    background-color: #e7e7e7;
+    border: 2px solid #000000d7;
+    color: #000000;
+    padding: 16px 32px;
     text-align: center;
-    margin-top: 2px;
-    padding: 5px 15px;
-}
-
-#button:hover {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
     cursor: pointer;
-    opacity: .8;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width: 250px;
 }
 
-ol {
-    padding-left: 20px;
+ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-ol li {
-    padding: 5px;
-    color: #000;
-    border-radius: 10px;
+.modal-title {
+    text-align: center;
+    text-transform: uppercase;
 }
 
-ol li:nth-child(even) {
-    background: #ebebeb;
+.modal-body {
+    background-color: #add8e6;
 }
 
-.strike {
-    text-decoration: line-through;
-    color: rgb(221, 92, 92);
+.modal-footer {
+    background-color: #22b2e2;
 }
 
-li:hover {
-    cursor: pointer;
-    font-size: 120%;
+.modal-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.delete {
-    display: none;
+.modal-header {
+    background-color: #0400ff;
 }
 
-li>crossOutButton {
-    background: none;
-    border: none;
-    float: right;
-    color: rgb(233, 236, 28);
-    font-weight: 900;
-    padding-right: 5px;
+h3 {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+h6 {
+    margin-left: 50px;
+    margin-right: 50px;
 }
